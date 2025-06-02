@@ -1,0 +1,98 @@
+body{
+    background-color: #aa9f99;
+    padding: 30px;
+}
+
+h1, h2{
+    font-family: cursive;
+    text-align: center;
+}
+
+h1{
+    font-size: 48px;
+    letter-spacing: 10px;
+    word-spacing: -20px;
+    text-transform: capitalize;
+    background-color: rgb(110, 29, 45);
+    border: 10px solid rgb(221, 35, 35);
+    padding: 30px;
+    display: center;
+    border-radius: 8px;
+}
+
+h2{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+p, div{
+    text-align: justify;
+    text-align: center;
+} 
+
+p{
+    margin-top: 30px;
+    font: italic 24px/1.5;
+    font-size: 20px;
+}
+
+.copyright{
+    font-size: bold;
+}
+
+img{
+    display: flex;
+    margin: 30px auto;
+    border: 5px solid rgb(22, 21, 21);
+}
+
+.Pilotos{
+    width: 1000px;
+    height: 1000px;
+    background-color: #aa9f99;
+    display: flex;
+    gap: 15px;
+}
+
+.HamiltonEleclerc{
+    height: 400px;
+    width: 400px; 
+    font-size: 40px;
+}
+
+nav li{
+    width: 200px;
+    margin: 30px auto 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-style: normal;
+    color: #aa9f99;
+    background-color: white;
+    text-align: center;
+}
+
+ul{
+    margin-top: 30px;
+    font-size: 20px;
+    font-style: normal;
+    color: #aa9f99;
+
+}
+
+li{
+    margin-bottom: 5px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.fixed{
+    position: fixed;
+    top: 30px;
+    font-size: 20px;
+}
